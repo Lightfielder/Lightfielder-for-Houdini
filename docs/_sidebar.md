@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-- **Kartaverse for Houdini:**
-	- [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
-	- [Kartaverse Shelf Tools](shelf)
+- **Lightfielder for Houdini:**
+	- [GitHub Project Page](https://Lightfielder.github.io/Lightfielder-for-Houdini/)
+	- [Lightfielder Shelf Tools](shelf)
 	- [Example HIP Project Files](examples)
 	- [Panotools Data Nodes](panotools)
 	- Render Fusion Comps in Houdini TOPs
@@ -41,9 +41,10 @@
 			- [TOPs Reality Capture XYZ Output](volumetric_video/tops_reality_capture_xyz_output.md)
 			- [TOPs Reality Capture OBJ Output](volumetric_video/tops_reality_capture_obj_output.md)
 	- **HQueue**
-		- [KartaLink HQueue Render](hqueue.md)
+		- [HQueue Render](hqueue.md)
 - **Related Projects:**
  	- [Lightfielder](https://github.com/Lightfielder/)
+  	- [Kartaverse](https://github.com/Kartaverse/)
 	- [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
 	- [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/)
 	- [XR LED Panel Database](https://kartaverse.github.io/XR-LED-Panel-Database/)
