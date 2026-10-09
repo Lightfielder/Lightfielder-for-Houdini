@@ -5,38 +5,38 @@
  Note, that two definitions of the same element are not allowed in
  a single file. -->
 
-  <toolshelf name="Kartaverse" label="Kartaverse">
-    <memberTool name="Kartaverse_HomeAll_Views"/>
-    <memberTool name="Kartaverse_HomeSelected_Views"/>
-    <memberTool name="Kartaverse_Divider_1"/>
-    <memberTool name="Kartaverse_Create_Folder"/>
-    <memberTool name="Kartaverse_HIP_Folder"/>
-    <memberTool name="Kartaverse_ABC_Folder"/>
-    <memberTool name="Kartaverse_COLMAP_Folder"/>
-    <memberTool name="Kartaverse_PLY_Folder"/>
-    <memberTool name="Kartaverse_PSHT_Folder"/>
-    <memberTool name="Kartaverse_E57_Folder"/>
-    <memberTool name="Kartaverse_GEO_Folder"/>
-    <memberTool name="Kartaverse_OBJ_Folder"/>
-    <memberTool name="Kartaverse_Comp_Folder"/>
-    <memberTool name="Kartaverse_Images_Folder"/>
-    <memberTool name="Kartaverse_Images_Frameset_Folder"/>
-    <memberTool name="Kartaverse_Metadata_Folder"/>
-    <memberTool name="Kartaverse_Video_Folder"/>
-    <memberTool name="Kartaverse_Render_Folder"/>
-    <memberTool name="Kartaverse_Shelf_Folder"/>
-    <memberTool name="Kartaverse_Divider_2"/>
-    <memberTool name="Kartaverse_camera_import"/>
-    <memberTool name="Kartaverse_e57_import"/>
-    <memberTool name="Kartaverse_Divider_3"/>
-    <memberTool name="Kartaverse_CLI"/>
-    <memberTool name="Kartaverse_Services"/>
-    <memberTool name="Kartaverse_Task"/>
-    <memberTool name="Kartaverse_Help_Web"/>
-    <memberTool name="Kartaverse_Shelf_Edit"/>
+  <toolshelf name="Lightfielder" label="Lightfielder">
+    <memberTool name="Lightfielder_HomeAll_Views"/>
+    <memberTool name="Lightfielder_HomeSelected_Views"/>
+    <memberTool name="Lightfielder_Divider_1"/>
+    <memberTool name="Lightfielder_Create_Folder"/>
+    <memberTool name="Lightfielder_HIP_Folder"/>
+    <memberTool name="Lightfielder_ABC_Folder"/>
+    <memberTool name="Lightfielder_COLMAP_Folder"/>
+    <memberTool name="Lightfielder_PLY_Folder"/>
+    <memberTool name="Lightfielder_PSHT_Folder"/>
+    <memberTool name="Lightfielder_E57_Folder"/>
+    <memberTool name="Lightfielder_GEO_Folder"/>
+    <memberTool name="Lightfielder_OBJ_Folder"/>
+    <memberTool name="Lightfielder_Comp_Folder"/>
+    <memberTool name="Lightfielder_Images_Folder"/>
+    <memberTool name="Lightfielder_Images_Frameset_Folder"/>
+    <memberTool name="Lightfielder_Metadata_Folder"/>
+    <memberTool name="Lightfielder_Video_Folder"/>
+    <memberTool name="Lightfielder_Render_Folder"/>
+    <memberTool name="Lightfielder_Shelf_Folder"/>
+    <memberTool name="Lightfielder_Divider_2"/>
+    <memberTool name="Lightfielder_camera_import"/>
+    <memberTool name="Lightfielder_e57_import"/>
+    <memberTool name="Lightfielder_Divider_3"/>
+    <memberTool name="Lightfielder_CLI"/>
+    <memberTool name="Lightfielder_Services"/>
+    <memberTool name="Lightfielder_Task"/>
+    <memberTool name="Lightfielder_Help_Web"/>
+    <memberTool name="Lightfielder_Shelf_Edit"/>
   </toolshelf>
 
-  <tool name="Kartaverse_camera_import" label="Cam Import" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_import.png">
+  <tool name="Lightfielder_camera_import" label="Cam Import" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_import.png">
     <script scriptType="python"><![CDATA[# Camera Import
 import os
 import sys
@@ -85,7 +85,7 @@ for x in viewer.viewports():
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_e57_import" label="E57 Import" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_import.png">
+  <tool name="Lightfielder_e57_import" label="E57 Import" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_import.png">
     <script scriptType="python"><![CDATA[# e57 Lidar Import
 import os
 import sys
@@ -135,7 +135,7 @@ for x in viewer.viewports():
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_HomeAll_Views" label="Home All" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_reset_options.png">
+  <tool name="Lightfielder_HomeAll_Views" label="Home All" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_reset_options.png">
     <script scriptType="python"><![CDATA[# Home All
 import os
 import sys
@@ -152,7 +152,7 @@ for x in viewer.viewports():
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_HomeSelected_Views" label="Home Selected" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_selectAll.png">
+  <tool name="Lightfielder_HomeSelected_Views" label="Home Selected" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_selectAll.png">
     <script scriptType="python"><![CDATA[# Home Selected
 import os
 import sys
@@ -168,7 +168,7 @@ for x in viewer.viewports():
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_DJV" label="DJV Viewer" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_show_sequence.png">
+  <tool name="Lightfielder_DJV" label="DJV Viewer" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_show_sequence.png">
     <script scriptType="python"><![CDATA[# DJV
 import platform
 import sys
@@ -253,11 +253,11 @@ kvr_showDJVSequence(snapshotImage)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Divider_1" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
+  <tool name="Lightfielder_Divider_1" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
     <script scriptType="python"><![CDATA[print('Divider Bar')]]></script>
   </tool>
 
-  <tool name="Kartaverse_HIP_Folder" label="HIP" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_HIP_Folder" label="HIP" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# HIP Folder
 import platform
 import sys
@@ -319,7 +319,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_ABC_Folder" label="ABC" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_ABC_Folder" label="ABC" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# ABC Folder
 import platform
 import sys
@@ -380,7 +380,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_E57_Folder" label="E57" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_E57_Folder" label="E57" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# E57 Folder
 import platform
 import sys
@@ -442,7 +442,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_GEO_Folder" label="GEO" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_GEO_Folder" label="GEO" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# GEO Folder
 import platform
 import sys
@@ -504,7 +504,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_OBJ_Folder" label="OBJ" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_OBJ_Folder" label="OBJ" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# OBJ Folder
 import platform
 import sys
@@ -566,7 +566,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_IPR_Folder" label="IPR" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_IPR_Folder" label="IPR" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# IPR Folder
 import platform
 import sys
@@ -628,7 +628,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Metadata_Folder" label="Metadata" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Metadata_Folder" label="Metadata" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Video Folder
 import platform
 import sys
@@ -689,7 +689,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Video_Folder" label="Video" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Video_Folder" label="Video" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Video Folder
 import platform
 import sys
@@ -751,7 +751,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Comp_Folder" label="Comp" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Comp_Folder" label="Comp" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Comp Folder
 import platform
 import sys
@@ -812,7 +812,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Images_Folder" label="Images" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Images_Folder" label="Images" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Images Folder
 import platform
 import sys
@@ -873,7 +873,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Images_Frameset_Folder" label="####" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Images_Frameset_Folder" label="####" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Images Frameset Folder
 import platform
 import sys
@@ -936,7 +936,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Render_Folder" label="Render" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Render_Folder" label="Render" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Render Folder
 import platform
 import sys
@@ -997,7 +997,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_PSX_Folder" label="PSX" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_PSX_Folder" label="PSX" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# PSX Folder
 import platform
 import sys
@@ -1063,7 +1063,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Shelf_Folder" label="Shelf" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Shelf_Folder" label="Shelf" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Houdini Shelf
 import platform
 import sys
@@ -1126,7 +1126,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Create_Folder" label="Create HIP Sub-Folders" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_Create_Folder" label="Create HIP Sub-Folders" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# Create Folders
 import platform
 import sys
@@ -1214,11 +1214,11 @@ kvr_showFolder(str(hipFolder))
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Divider_2" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
+  <tool name="Lightfielder_Divider_2" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
     <script scriptType="python"><![CDATA[print('Divider Bar')]]></script>
   </tool>
 
-  <tool name="Kartaverse_Metashape" label="Metashape" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_metashape.png">
+  <tool name="Lightfielder_Metashape" label="Metashape" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_metashape.png">
     <script scriptType="python"><![CDATA[# Metashape
 import platform
 import sys
@@ -1275,7 +1275,7 @@ kvr_showMetashape(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_RC" label="Reality Capture" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_realityCapture.png">
+  <tool name="Lightfielder_RC" label="Reality Capture" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_realityCapture.png">
     <script scriptType="python"><![CDATA[# Reality Capture
 import platform
 import sys
@@ -1309,7 +1309,7 @@ kvr_showRealityCapture(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Unreal" label="Unreal" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_unrealEngine.png">
+  <tool name="Lightfielder_Unreal" label="Unreal" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_unrealEngine.png">
     <script scriptType="python"><![CDATA[# Unreal
 import platform
 import sys
@@ -1343,7 +1343,7 @@ kvr_showUnrealEngine(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_FusionStudio" label="Fusion Studio" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_fusion.png">
+  <tool name="Lightfielder_FusionStudio" label="Fusion Studio" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_fusion.png">
     <script scriptType="python"><![CDATA[# Fusion Studio
 import platform
 import sys
@@ -1409,7 +1409,7 @@ kvr_showFusionStudio(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_ResolveStudio" label="Resolve Studio" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_davinciResolve.png">
+  <tool name="Lightfielder_ResolveStudio" label="Resolve Studio" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_davinciResolve.png">
     <script scriptType="python"><![CDATA[# Resolve Studio
 import platform
 import sys
@@ -1465,7 +1465,7 @@ kvr_showResolveStudio(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_NukeX" label="NukeX" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_nuke.png">
+  <tool name="Lightfielder_NukeX" label="NukeX" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_nuke.png">
     <script scriptType="python"><![CDATA[# NukeX
 import platform
 import sys
@@ -1508,11 +1508,11 @@ kvr_showNukeX(filename)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Divider_3" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
+  <tool name="Lightfielder_Divider_3" label="Divider" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_divider.png">
     <script scriptType="python"><![CDATA[print('Divider Bar')]]></script>
   </tool>
 
-  <tool name="Kartaverse_Task" label="Task Manager" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_task.png">
+  <tool name="Lightfielder_Task" label="Task Manager" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_task.png">
     <script scriptType="python"><![CDATA[# Activity Monitor
 import platform
 import sys
@@ -1574,7 +1574,7 @@ kvr_showTaskManager()
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_CLI" label="Terminal" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_options.png">
+  <tool name="Lightfielder_CLI" label="Terminal" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_options.png">
     <script scriptType="python"><![CDATA[# Terminal
 import platform
 import sys
@@ -1622,7 +1622,7 @@ kvr_showCLI()
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Metadata" label="Spatial Metadata" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_metadata.png">
+  <tool name="Lightfielder_Metadata" label="Spatial Metadata" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_metadata.png">
     <script scriptType="python"><![CDATA[# Spatial Metadata
 import platform
 import sys
@@ -1670,7 +1670,7 @@ kvr_showSpatialMetadata()
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Help_Web" label="Help" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_help.png">
+  <tool name="Lightfielder_Help_Web" label="Help" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_help.png">
     <script scriptType="python"><![CDATA[# Help
 import platform
 import sys
@@ -1717,14 +1717,14 @@ def kvr_showWebpage(filename):
     elif houPlatform == 'Linux':
         os.startfile(filename)
 
-#weblink = 'https://github.com/kartaverse'
-weblink = 'https://kartaverse.github.io/Kartaverse-for-Houdini/'
+#weblink = 'https://github.com/lightfielder'
+weblink = 'https://lightfielder.github.io/Lightfielder-for-Houdini/'
 print('[Showing Webpage] ' + weblink)
 kvr_showWebpage(weblink)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_Shelf_Edit" label="Edit Shelf" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_edit.png">
+  <tool name="Lightfielder_Shelf_Edit" label="Edit Shelf" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_edit.png">
     <script scriptType="python"><![CDATA[# Houdini Toolbar
 import platform
 import sys
@@ -1785,7 +1785,7 @@ def kvr_showFolder(mediaFileName):
 
 # Open the Houdini Toolbar
 # $HOUDINI_USER_PREF_DIR/toolbar/
-folderName = str(userPrefsfolder) + '/toolbar/Kartaverse.shelf'
+folderName = str(userPrefsfolder) + '/toolbar/Lightfielder.shelf'
 
 # $HIP
 # folderName = str(hipFolder)
@@ -1795,7 +1795,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_HomeSelected_Views" label="Home Selected" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_selectAll.png">
+  <tool name="Lightfielder_HomeSelected_Views" label="Home Selected" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_selectAll.png">
     <script scriptType="python"><![CDATA[# Home Selected
 import os
 import sys
@@ -1815,7 +1815,7 @@ for x in viewer.viewports():
 
   <toolshelf name="LIDAR" label="KVR LIDAR"/>
 
-  <tool name="Kartaverse_Services" label="System Services" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_preferences.png">
+  <tool name="Lightfielder_Services" label="System Services" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_preferences.png">
     <script scriptType="python"><![CDATA[# Systen Services
 import platform
 import sys
@@ -1873,7 +1873,7 @@ kvr_showTaskManager()
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_PLY_Folder" label="PLY" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_PLY_Folder" label="PLY" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# PLY Folder
 import platform
 import sys
@@ -1935,7 +1935,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_PSHT_Folder" label="Postshot" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_PSHT_Folder" label="Postshot" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# PSHT Folder
 import platform
 import sys
@@ -1997,7 +1997,7 @@ kvr_showFolder(folderName)
 ]]></script>
   </tool>
 
-  <tool name="Kartaverse_COLMAP_Folder" label="COLMAP" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
+  <tool name="Lightfielder_COLMAP_Folder" label="COLMAP" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_directory.png">
     <script scriptType="python"><![CDATA[# COLMAP Folder
 import platform
 import sys
