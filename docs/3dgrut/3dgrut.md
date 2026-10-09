@@ -1,4 +1,4 @@
-# Kartaverse Workflows | Gaussian Raytracing on Linux
+# Lightfielder Workflows | Gaussian Raytracing on Linux
 
 If you are interested in volumetric rendering and 3DGS (3D Gaussian Splatting) technology, NVIDIA has released a 3D Gaussian Raytracing library for Linux that provides model training and interactive rendering support. The software is available from the [3DGRUT GitHub](https://github.com/nv-tlabs/3dgrut) repository with a permissive [Apache 2.0](https://github.com/nv-tlabs/3dgrut/blob/main/LICENSE) open-source license.
 
