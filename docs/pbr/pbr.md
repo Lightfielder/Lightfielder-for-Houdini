@@ -1,4 +1,4 @@
-# Kartaverse Workflows | PBR-GS Workflows
+# Lightfielder Workflows | PBR-GS Workflows
 
 ## Overview
 
@@ -12,14 +12,14 @@ One issue at the moment is the way that 3DGS models typically have lighting effe
 
 With a bit of extra work it is possible to mix 3DGS workflows, with traditional 3D rendering pipelines that involve PBR (Physically Based Rendering) surface material properties. This gives us the best of both worlds, where you can achieve a high degree of art direct-ability as you craft your final image.
 
-Kartaverse uses the term "PBR-GS" for a specific type of hybrid gaussian splatting workflow. It uses spherical harmonics for the base view-dependent shading effects, then blends in point-sample aligned PBR material attributes that provide true volumetric relighting. PBR-GS is an approach that can help VFX artists integrate volumetric video footage into a larger digital environment.
+Lightfielder uses the term "PBR-GS" for a specific type of hybrid Gaussian Splatting workflow. It uses spherical harmonics for the base view-dependent shading effects, then blends in point-sample aligned PBR material attributes that provide true volumetric relighting. PBR-GS is an approach that can help VFX artists integrate volumetric video footage into a larger digital environment.
 
-When using PBR-GS concepts in production, a 3D DCC package can perform full volumetric relighting of 3D scanned 3DGS/4DGS assets. You can even bake the results of illumination changes and modified HDRI environmental reflections, back to disk as 3DGS/4DGS .ply files that can be used by existing "traditional" gaussian splatting tools.
+When using PBR-GS concepts in production, a 3D DCC package can perform full volumetric relighting of 3D scanned 3DGS/4DGS assets. You can even bake the results of illumination changes and modified HDRI environmental reflections, back to disk as 3DGS/4DGS .ply files that can be used by existing "traditional" Gaussian splatting tools.
 
 Inside of DCC apps like Houdini or Unreal, the  volumetric relighting results can be rendered as "AOV" render pass elements that can also be sent as multi-layer EXRs to a compositing package. In Comp it is possible to apply further grading and image relighting operations which allows the CG rendered elements to be integrated with live-action backplates. This enables productions to flexibly support the use of 4DGS assets inside of traditional VFX workflows like live-action scene integration, camera tracking/match moving, and digital matte painting.
 
-You can read more about the proposed PBR-GS extension to the gaussian splatting .ply file format here:  
-[https://github.com/Kartaverse/PBR-GS](https://github.com/Kartaverse/PBR-GS)
+You can read more about the proposed PBR-GS extension to the Gaussian Splatting .ply file format here:  
+[https://github.com/Lightfielder/PBR-GS](https://github.com/Lightfielder/PBR-GS)
 
 ## COPs Examples
 
