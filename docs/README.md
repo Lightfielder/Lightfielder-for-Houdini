@@ -1,8 +1,8 @@
-# Welcome to Kartaverse for Houdini
+# Welcome to Lightfielder for Houdini
 
-> [Kartaverse](https://github.com/kartaverse) is an academic research project exploring computational imaging techniques.
+> [Lightfielder](https://github.com/Lightfielder) is an academic research project exploring computational imaging techniques.
 
-> Kartaverse for Houdini provides a post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
+> Lightfielder for Houdini provides a post-production pipeline that is optimized for the immersive media sector.
 
 - Made in West Dover, Nova Scotia, Canada 🇨🇦
 
@@ -10,4 +10,5 @@
 
 All trademarks, logos, and brand names are the property of their respective owners.
 
-Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2025. All rights reserved.
+Lightfielder is (C) Copyright Andrew Hazelden 2014-2026. All rights reserved.  
+Note: This repo was previously called "Kartaverse-for-Houdini".  
