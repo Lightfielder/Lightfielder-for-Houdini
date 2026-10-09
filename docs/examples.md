@@ -1,6 +1,6 @@
 # Example HIP Project Files
 
-Kartaverse for Houdini ships with a [collection of example .hip files](https://github.com/Kartaverse/Kartaverse-for-Houdini/tree/master/HoudiniProjects) you can use to learn data node workflows. The sample projects cover XR industry focused concepts that will help you prepare content for use in virtual production, XR, VR, and fulldome projects.
+Lightfielder for Houdini ships with a [collection of example .hip files](https://github.com/Lightfielder/Lightfielder-for-Houdini/tree/master/HoudiniProjects) you can use to learn data node workflows. The sample projects cover XR industry focused concepts that will help you prepare content for use in XR.
 
 As always, more learning content is on the way! If you have something specific in mind for what you'd like to see for examples, feel free to [send me your requests](mailto:andrew@andrewhazelden.com) and I can likely accommodate what you need in short order.
 
