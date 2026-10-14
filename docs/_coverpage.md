@@ -2,7 +2,7 @@
 
 ![Logo](Images/icon-kartavr.png)
 
-# Kartaverse for Houdini
+# Lightfielder for Houdini
 
 > An academic research project exploring computational imaging techniques
 
@@ -10,5 +10,5 @@
 
 - (Scroll down for more info...)
 
-[GitHub](https://github.com/Kartaverse/Kartaverse-for-Houdini)
+[GitHub](https://github.com/Lightfielder/Lightfielder-for-Houdini)
 
