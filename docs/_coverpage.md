@@ -6,7 +6,7 @@
 
 > An academic research project exploring computational imaging techniques
 
--  Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
+-  Lightfielder provides a post-production pipeline optimized for the volumetric video sector. If you can imagine it, Lightfielder can help you create it in XR with 6DoF (Six Degrees of Freedom)!
 
 - (Scroll down for more info...)
 
