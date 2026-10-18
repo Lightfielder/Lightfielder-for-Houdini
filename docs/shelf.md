@@ -18,11 +18,15 @@ Copy the "toolbar" folder contents from the "Lightfielder for Houdini" GitHub re
 
 Windows Toolbar Path:
 
-	C:\Users\<Your User Account>\Documents\houdini20.5\toolbar\
+	C:\Users\<Your User Account>\Documents\houdini22.0\toolbar\Lightfielder.shelf
 
 macOS Toolbar Path:
 
-	/Users/<Your User Account>/Library/Preferences/houdini/20.5/toolbar/Lightfielder.shelf
+	/Users/<Your User Account>/Library/Preferences/houdini/22.0/toolbar/Lightfielder.shelf
+
+Linux Toolbar Path:
+
+	home/<Your User Account>/houdini22.0/toolbar/Lightfielder.shelf
 
 ## Shelf Items
 
