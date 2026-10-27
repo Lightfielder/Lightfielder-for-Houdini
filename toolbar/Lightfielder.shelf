@@ -1811,10 +1811,6 @@ for x in viewer.viewports():
 ]]></script>
   </tool>
 
-  <toolshelf name="Videogrammetry" label="KVR Videogrammetry"/>
-
-  <toolshelf name="LIDAR" label="KVR LIDAR"/>
-
   <tool name="Lightfielder_Services" label="System Services" icon="$HOUDINI_USER_PREF_DIR/toolbar/icons/kvr_preferences.png">
     <script scriptType="python"><![CDATA[# Systen Services
 import platform
